@@ -1,0 +1,137 @@
+Package: dm-lvgl_cluster_rt1170_evk
+Version: 1.0
+Outgoing License: BSD-3-Clause
+License File:LICENSE.txt
+Description and comments: This is a cluster demo with LVGL on MIMXRT1170-EVK with RK055HDMIPI4M 5.5" LCD panel. This demo shows the interface of the car/e-bike when driving, shows the interface of speedometer gear switching and signal icons switching.
+Release Location: https://github.com/nxp-appcodehub/dm-lvgl_cluster_rt1170_evk
+Origin: NXP (proprietary)
+        NXP (BSD-3-Clause)
+        ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.8.0
+		IAR Systems (ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.8.0)
+        Amazon (MIT) - https://aws.amazon.com/freertos/
+		Gabor Kiss-Vamosi(MIT) - https://github.com/lvgl/lvgl
+		Project Nayuki(MIT) - https://github.com/lvgl/lvgl
+		Lode Vandevenne(MIT) - https://github.com/lvgl/lvgl
+		Matthew Conte(MIT) - https://github.com/lvgl/lvgl
+		ChaN(MIT) - https://github.com/lvgl/lvgl
+		VeriSilicon (MIT), Raph Levien, Nicolas Silva (Apache-2.0) Vivante Corporation, Santa Clara, California.(MIT) - http://www.verisilicon.com/, https://github.com/linebender/kurbo                      
+        Petteri Aimonen (MIT) - (https://github.com/PetteriAimonen)
+
+cmsis                      Name: CMSIS                                       
+                           Version: 5.8.0                                    
+                           Outgoing License: Apache License 2.0              
+                           License File: lvgl_cluster_rt1170_evk/sdk/Core/CMSIS/LICENSE.txt                   
+                           Format: source code                               
+                           Description and comments: Vendor-independent hardware          
+                           abstraction layer for microcontrollers that are   
+                           based on Arm Cortex processors, distributed by    
+                           ARM. cores                                        
+                           Release Location: https://github.com/nxp-appcodehub/dm-lvgl_cluster_rt1170_evk                                 
+                           Origin: ARM (Apache-2.0) -                        
+                           https://github.com/ARM-software/CMSIS_5/releases/t
+                           ag/5.8.0                                          
+
+cmsis                      Name: cmsis_iccarm.h                                       
+                           Version: 1.0                                    
+                           Outgoing License: Apache License 2.0              
+                           License File: lvgl_cluster_rt1170_evk/sdk/Core/CMSIS/LICENSE.txt                   
+                           Format: source code                               
+                           Description and comments: Vendor-independent hardware          
+                           abstraction layer for microcontrollers that are   
+                           based on Arm Cortex processors, distributed by    
+                           ARM. cores                                        
+                           Release Location: https://github.com/nxp-appcodehub/dm-lvgl_cluster_rt1170_evk                                 
+                           Origin: IAR Systems - ARM (Apache-2.0) -                        
+                           https://github.com/ARM-software/CMSIS_5/releases/t
+                           ag/5.8.0 
+						   
+freertos                   Name: FreeRTOS                                    
+                           Version: 10.4.3_rev1                              
+                           Outgoing License: MIT                             
+                           License File: lvgl_cluster_rt1170_evk/sdk/Core/freertos/LICENSE               
+                           Format: source code                               
+                           Description and comments: IoT operating system for             
+                           microcontrollers                                  
+                           Release Location: https://github.com/nxp-appcodehub/dm-lvgl_cluster_rt1170_evk                         
+                           Origin: Amazon (MIT)          
+                           Url: https://aws.amazon.com/freertos/  						                                     
+
+lvgl                       Name: LVGL                                        
+                           Version: 8.2.0                                    
+                           Outgoing License: MIT                             
+                           License File: lvgl_cluster_rt1170_evk/sdk/Core/lvgl/lvgl/LICENCE.txt    
+                           Format: source code                               
+                           Description and comments: Light and Versatile Graphics Library 
+                           (LVGL)                                            
+                           Release Location: https://github.com/nxp-appcodehub/dm-lvgl_cluster_rt1170_evk                         
+                           Origin: Gabor Kiss-Vamosi                         
+                           Url: https://github.com/lvgl/lvgl                 
+
+lvgl                       Name: qrcodegen.c, qrcodegen.h                                        
+                           Version: 1.0                                    
+                           Outgoing License: MIT                             
+                           License File: lvgl_cluster_rt1170_evk/sdk/Core/lvgl/lvgl/LICENCE.txt    
+                           Format: source code                               
+                           Description and comments: Light and Versatile Graphics Library 
+                           (LVGL)                                            
+                           Release Location: https://github.com/nxp-appcodehub/dm-lvgl_cluster_rt1170_evk                         
+                           Origin: Project Nayuki                         
+                           Url: https://github.com/lvgl/lvgl    
+
+lvgl                       Name: lodepng.c, lodepng.h                                        
+                           Version: 1.0                                    
+                           Outgoing License: MIT                             
+                           License File: lvgl_cluster_rt1170_evk/sdk/Core/lvgl/lvgl/LICENCE.txt    
+                           Format: source code                               
+                           Description and comments: Light and Versatile Graphics Library 
+                           (LVGL)                                            
+                           Release Location: https://github.com/nxp-appcodehub/dm-lvgl_cluster_rt1170_evk                         
+                           Origin: Lode Vandevenne                         
+                           Url: https://github.com/lvgl/lvgl
+
+lvgl                       Name: tjpgd.c                                        
+                           Version: 1.0                                    
+                           Outgoing License: MIT                             
+                           License File: lvgl_cluster_rt1170_evk/sdk/Core/lvgl/lvgl/LICENCE.txt    
+                           Format: source code                               
+                           Description and comments: Light and Versatile Graphics Library 
+                           (LVGL)                                            
+                           Release Location: https://github.com/nxp-appcodehub/dm-lvgl_cluster_rt1170_evk                         
+                           Origin: ChaN                         
+                           Url: https://github.com/lvgl/lvgl
+	
+lvgl                       Name: lv_tlsf.h                                        
+                           Version: 1.0                                    
+                           Outgoing License: BSD                             
+                           License File: LICENCE.txt    
+                           Format: source code                               
+                           Description and comments: Light and Versatile Graphics Library 
+                           (LVGL)                                            
+                           Release Location: https://github.com/nxp-appcodehub/dm-lvgl_cluster_rt1170_evk                         
+                           Origin: Matthew Conte                         
+                           Url: https://github.com/lvgl/lvgl
+						   
+vglite                     Name: vglite                                      
+                           Version: 3.0.15_rev7                              
+                           Outgoing License: MIT                             
+                           License File: lvgl_cluster_rt1170_evk/sdk/Core/vglite/LICENSE.txt       
+                           Format: source code                               
+                           Description and comments: VeriSilicon's platform independent   
+                           VGLite Graphics library                           
+                           Release Location: https://github.com/nxp-appcodehub/dm-lvgl_cluster_rt1170_evk                       
+                           Origin: VeriSilicon (MIT), Raph Levien, Nicolas   
+                           Silva (Apache-2.0), Vivante Corporation, Santa Clara, California.(MIT)                                
+                           Url: http://www.verisilicon.com/,                 
+                           https://github.com/linebender/kurbo   
+
+vglite_mcufont             Name: mcufont                                     
+                           Version: 1.0                                      
+                           Outgoing License: MIT                             
+                           License File: lvgl_cluster_rt1170_evk/sdk/Core/vglite/font/mcufont/LICENSE                                              
+                           Format: source code                               
+                           Description and comments: Font rendering library for           
+                           microcontrollers                                  
+                           Release Location: https://github.com/nxp-appcodehub/dm-lvgl_cluster_rt1170_evk           
+                           Origin: Petteri Aimonen                           
+                           (https://github.com/PetteriAimonen)               
+                           Url: https://github.com/mcufont/mcufont  						   
