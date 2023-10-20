@@ -24,7 +24,7 @@ This is a cluster demo with LVGL on MIMXRT1170-EVK with RK055HDMIPI4M 5.5" LCD p
 * LVGL version 8.2.0.
 
 ## 2. Hardware<a name="step2"></a>
-1. i.MX RT1170-EVK(REV A)
+1. [i.MX RT1170-EVK](https://www.nxp.com/part/MIMXRT1170-EVK#/)
 2. [RK055HDMIPI4M 5.5" LCD Panel](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/5-5-lcd-panel:RK055HDMIPI4M)
 ![evk](images/evk.png)
 3. Power Adapter.
